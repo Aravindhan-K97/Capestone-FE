@@ -31,7 +31,7 @@ const EditDepartment = () => {
     try {
       await axios
         .get(
-          `https://role-based-access-control-system-backend.onrender.com/api/department/get-department-by-id/${departmentId}`
+          `https://capestone-be.onrender.com/api/department/get-department-by-id/${departmentId}`
         )
         .then((res) => {
           toast.success(res.data.message);
@@ -59,7 +59,7 @@ const EditDepartment = () => {
       try {
         await axios
           .put(
-            `https://role-based-access-control-system-backend.onrender.com/api/department/edit-department/${departmentId}`,
+            `https://capestone-be.onrender.com/api/department/edit-department/${departmentId}`,
             values
           )
           .then((res) => {

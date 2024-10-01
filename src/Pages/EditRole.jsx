@@ -30,7 +30,7 @@ const EditRole = () => {
   const fetchData = async () => {
     try {
       await axios
-        .get(`https://role-based-access-control-system-backend.onrender.com/api/role/get-role-by-id/${roleId}`)
+        .get(`https://capestone-be.onrender.com/api/role/get-role-by-id/${roleId}`)
         .then((res) => {
           toast.success(res.data.message);
           setEditRole(res.data.result);
@@ -56,7 +56,7 @@ const EditRole = () => {
     onSubmit: async (values) => {
       try {
         await axios
-          .put(`https://role-based-access-control-system-backend.onrender.com/api/role/edit-role/${roleId}`, values)
+          .put(`https://capestone-be.onrender.com/api/role/edit-role/${roleId}`, values)
           .then((res) => {
             setEditRole(res.data.result);
             toast.success(res.data.message);

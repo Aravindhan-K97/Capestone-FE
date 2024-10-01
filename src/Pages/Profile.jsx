@@ -24,7 +24,7 @@ const Profile = () => {
   const fetchData = async () => {
     try {
       await axios(
-        `https://role-based-access-control-system-backend.onrender.com/api/get-employee-by-id/${currentUser._id}`
+        `https://capestone-be.onrender.com/api/get-employee-by-id/${currentUser._id}`
       ).then((res) => {
         setEmployee(res.data.result);
         toast.success(res.data.message);
@@ -66,7 +66,7 @@ const Profile = () => {
       try {
         await axios
           .put(
-            `https://role-based-access-control-system-backend.onrender.com/api/update-employee/${currentUser._id}`,
+            `https://capestone-be.onrender.com/api/update-employee/${currentUser._id}`,
             values
           )
           .then((res) => {

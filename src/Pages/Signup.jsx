@@ -15,7 +15,7 @@ const Signup = () => {
   const fetchRoles = async () => {
     try {
       await axios
-        .get("https://role-based-access-control-system-backend.onrender.com/api/role/get-roles")
+        .get("https://capestone-be.onrender.com/api/role/get-roles")
         .then((res) => {
           setRoles(res.data.result);
         });
@@ -65,7 +65,7 @@ const Signup = () => {
     onSubmit: async (values) => {
       try {
         await axios
-          .post("https://role-based-access-control-system-backend.onrender.com/api/register-emp", values)
+          .post("https://capestone-be.onrender.com/api/register-emp", values)
           .then((res) => {
             setFormData(res.data);
             toast.success(res.data.message);

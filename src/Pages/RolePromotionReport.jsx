@@ -15,7 +15,7 @@ const RolePromotionReport = () => {
   const fetchReports = async () => {
     try {
       const res = await axios.get(
-        "https://role-based-access-control-system-backend.onrender.com/api/report/role-promotion-report"
+        "https://capestone-be.onrender.com/api/report/role-promotion-report"
       );
       setReports(res.data.result);
       toast.success(res.data.message);
@@ -27,7 +27,7 @@ const RolePromotionReport = () => {
   //Function to download the promotion report of a particular employee
   const handleDownloadPDF = (id) => {
     window.open(
-      `https://role-based-access-control-system-backend.onrender.com/api/report/role-promotion-report/pdf/${id}`,
+      `https://capestone-be.onrender.com/api/report/role-promotion-report/pdf/${id}`,
       "_blank"
     );
   };

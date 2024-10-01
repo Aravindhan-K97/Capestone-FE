@@ -15,7 +15,7 @@ const WorkPeriodReport = () => {
   const fetchReports = async () => {
     try {
       const res = await axios.get(
-        "https://role-based-access-control-system-backend.onrender.com/api/report/work-period-report"
+        "https://capestone-be.onrender.com/api/report/work-period-report"
       );
       setReports(res.data.result);
       toast.success(res.data.message);
@@ -27,7 +27,7 @@ const WorkPeriodReport = () => {
   //Function to download work period details of a particular employee in pdf
   const handleDownloadPDF = (id) => {
     window.open(
-      `https://role-based-access-control-system-backend.onrender.com/api/report/work-period-report/pdf/${id}`,
+      `https://capestone-be.onrender.com/api/report/work-period-report/pdf/${id}`,
       "_blank"
     );
   };

@@ -31,7 +31,7 @@ const CreateRole = () => {
     onSubmit: async (values) => {
       try {
         await axios
-          .post("https://role-based-access-control-system-backend.onrender.com/api/role/create-role", values)
+          .post("https://capestone-be.onrender.com/api/role/create-role", values)
           .then((res) => {
             setFormData(res.data);
             toast.success(res.data.message);

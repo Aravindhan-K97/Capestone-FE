@@ -23,7 +23,7 @@ const Role = () => {
   const fetchData = async () => {
     try {
       await axios
-        .get("https://role-based-access-control-system-backend.onrender.com/api/role/get-roles")
+        .get("https://capestone-be.onrender.com/api/role/get-roles")
         .then((res) => {
           toast.success(res.data.message);
           setRoles(res.data.result);
@@ -48,7 +48,7 @@ const Role = () => {
   const handleDelete = async (id) => {
     try {
       await axios
-        .delete(`https://role-based-access-control-system-backend.onrender.com/api/role/delete-role/${id}`)
+        .delete(`https://capestone-be.onrender.com/api/role/delete-role/${id}`)
         .then((res) => {
           toast.success(res.data.message);
           setDeleteRole(res.data);

@@ -14,7 +14,7 @@ const ForgotPassword = () => {
     e.preventDefault();
     try {
       await axios
-        .post("https://role-based-access-control-system-backend.onrender.com/api/forgot-password", { email })
+        .post("https://capestone-be.onrender.com/api/forgot-password", { email })
         .then((res) => {
           toast.success(res.data.message);
           navigate("/signin");
