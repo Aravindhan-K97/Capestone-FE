@@ -11,7 +11,7 @@ const About = () => {
           <div className="container">
             <h1 className="display-4">About Us</h1>
             <p className="lead">
-              Welcome to TradePulse Intranet, your trusted partner in e-commerce
+              Welcome to ManageX InfoNet, your trusted partner in e-commerce
               solutions.
             </p>
           </div>
@@ -22,7 +22,7 @@ const About = () => {
               <div className="col-md-6">
                 <h2>Our Mission</h2>
                 <p>
-                  At TradePulse Intranet, our mission is to empower
+                  At ManageX InfoNet, our mission is to empower
                   organizations with seamless e-commerce management, leveraging
                   technology to drive efficiency and growth.
                 </p>
@@ -45,19 +45,19 @@ const About = () => {
             <div className="row">
               <div className="col-md-4 text-center">
                 <div className="team-member">
-                  <h5>John Doe</h5>
+                  <h5>John Smith </h5>
                   <p className="text-muted">CEO & Founder</p>
                 </div>
               </div>
               <div className="col-md-4 text-center">
                 <div className="team-member">
-                  <h5>Jane Smith</h5>
+                  <h5>Jane Johnson </h5>
                   <p className="text-muted">Chief Technical Officer</p>
                 </div>
               </div>
               <div className="col-md-4 text-center">
                 <div className="team-member">
-                  <h5>Emily Johnson</h5>
+                  <h5>Emily Doe </h5>
                   <p className="text-muted">Head of Marketing</p>
                 </div>
               </div>

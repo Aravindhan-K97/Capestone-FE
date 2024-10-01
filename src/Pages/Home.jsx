@@ -5,15 +5,21 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="container-fluid mt-5 home">
+      <div className="container-fluid" style={{ 
+        backgroundImage: `url('images/19187761.jpg')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        minHeight: '100vh'
+      }}> 
         <div className="row">
-          <div className="jumbotron text-center col">
-            <h1 className="display-3">Welcome to TradePulse Intranet</h1>
+          <div className="jumbotron text-center align-items-center">
+            <h1 className="display-3">Welcome to ManageX InfoNet</h1>
             <p className="lead fw-normal">
               Your central hub for all things related to our company.
             </p>
             <div>
-              <hr className="my-4 border border-dark" />
+              <hr className="border border-dark" />
               <p className="lead fw-semibold">
                 This is a Role Based Access Control Demo Project.
               </p>

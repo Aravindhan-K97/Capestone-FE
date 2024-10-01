@@ -5,9 +5,9 @@ import { FaHome, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="container border-top footer-container">
-      <footer className="py-3 my-4">
-        <ul className="nav justify-content-center border-bottom pb-3 mb-3">
+    <div className="container" style={{ marginTop: "20px" }}>
+      <footer className="py-0 my-0">
+        <ul className="nav justify-content-center border-bottom pb-1 mb-1">
           <li className="nav-item">
             <Link to="/" className="nav-link px-2 text-body-secondary">
               <FaHome color="rgb(84, 13, 239)" size="25" title="Home" />
@@ -15,7 +15,7 @@ const Footer = () => {
           </li>
           <li className="nav-item">
             <Link
-              to="https://github.com/Johnvilin-Sibina"
+              to="https://github.com/Aravindhan-K97"
               target="_blank"
               className="nav-link px-2 text-body-secondary"
             >
@@ -25,16 +25,16 @@ const Footer = () => {
 
           <li className="nav-item">
             <Link
-              to="https://linkedin.com/in/johnvilin-sibina-j-5ba45425a"
+              to="https://www.linkedin.com/in/aravindhan-k-351394312/"
               target="_blank"
               className="nav-link px-2 text-body-secondary"
             >
-              <FaLinkedin color="rgb(84, 13, 239)" size="22" title="Linkedin" />
+              <FaLinkedin color="rgb(84, 13, 239)" size="25" title="Linkedin" />
             </Link>
           </li>
         </ul>
         <p className="text-center text-body-secondary copy-write">
-          © {new Date().getFullYear()} Johnvilin Sibina
+          © {new Date().getFullYear()} Aravindhan.K
         </p>
       </footer>
     </div>

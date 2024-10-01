@@ -28,7 +28,7 @@ const Sidebar = () => {
       >
         <div className="offcanvas-header">
           <h5 className="offcanvas-title" id="sidebarMenuLabel">
-            TradePulse
+            ManageX
           </h5>
           <button
             type="button"

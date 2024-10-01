@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-md" data-bs-theme="dark">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand">
-          TradePulse
+          ManageX
         </Link>
         <button
           className="navbar-toggler"
