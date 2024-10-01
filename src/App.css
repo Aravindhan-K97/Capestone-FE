@@ -1,0 +1,186 @@
+/* Navbar */
+.navbar-collapse {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.navbar {
+  background-image: radial-gradient(circle at bottom center, rgb(84, 13, 239), rgb(79, 34, 84));
+}
+
+.navbar-nav {
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+.button {
+  background-image: radial-gradient(circle at bottom center, rgb(84, 13, 239), rgb(79, 34, 84));
+}
+
+.signup {
+  font-weight: 700;
+  color: rgb(82, 19, 190);
+}
+
+.form-label {
+  color: rgb(84, 13, 235);
+  font-weight: 500;
+}
+
+.signin {
+  font-weight: 700;
+  color: rgb(82, 19, 190);
+}
+
+.box {
+  border: 3px solid rgb(82, 19, 190);
+  width: 40vw;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.sidebar {
+  height: 100vh;
+}
+
+.sidebar-link {
+  color: blueviolet !important;
+  font-size: 18px;
+}
+
+.formik-error {
+  font-size: 18px;
+  color: red;
+}
+
+legend {
+  color: rgb(82, 19, 190);
+  font-weight: 500;
+  font-size: xx-large;
+  font-family: Georgia, Times, 'Times New Roman', serif
+}
+
+.home {
+  padding: 2rem;
+}
+
+.jumbotron {
+  color: rgb(114, 29, 192);
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.display-3 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.get-started-btn {
+  background-image: linear-gradient(to right, rgb(164, 115, 243), rgb(156, 23, 151));
+  border: none;
+}
+
+.get-started-btn:hover {
+  background-image: linear-gradient(to right, rgb(111, 31, 168), rgb(98, 0, 163));
+}
+
+hr.my-4 {
+  border-top: 1px solid rgb(220, 220, 220);
+}
+
+@media (max-width: 768px) {
+  .display-3 {
+    font-size: 2.5rem;
+  }
+
+  .lead {
+    font-size: 1.1rem;
+  }
+}
+
+/*Footer*/
+.copy-write {
+  color: rgb(84, 13, 239) !important;
+  font-size: 20px;
+}
+
+/* About */
+.about-container {
+  font-family: 'Arial', sans-serif;
+  color: rgb(51, 51, 51);
+}
+
+.hero-section {
+  padding: 60px 0;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+}
+
+.about-content h2 {
+  color: rgb(111, 66, 193);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.team-section {
+  background-color: rgb(248, 249, 250);
+  padding: 60px 0;
+}
+
+.team-member {
+  margin-bottom: 30px;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.team-member h5 {
+  color: rgb(111, 66, 193);
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+.team-member p {
+  color: rgb(108, 117, 125);
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.heading {
+  color: rgb(82, 19, 190);
+}
+
+.table-heading tr th {
+  color: rgb(82, 19, 190);
+  font-size: 18px;
+}
+
+.dashboard-button {
+  background-image: linear-gradient(to right, rgb(145, 85, 248), rgb(121, 2, 190));
+  border: none;
+}
+
+.dashboard-button:hover {
+  background-image: linear-gradient(to right, rgb(111, 31, 168), rgb(98, 0, 163));
+}
