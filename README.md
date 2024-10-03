@@ -117,6 +117,15 @@
   <li>redux-persist</li>
 </ol>
 
+<ul>
+<li><h2>User</h2></li>
+ <li> EmailID-testuserk3429@gmail.com</li>
+ <li> Password-UserX@123</li>
+<li><h2>Admin</h2></li>
+  <li>EmailID-testuser3429x61@gmail.com</li>
+  <li>Password-Admin@123</li>
+  </ul>
+
 ## FrontEnd Netlify Deployed URL ⌛
 
 🔸*Click on the Badge to Check out My Password Reset Application Here*👉🏻 [![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://lambent-kulfi-76a377.netlify.app)
