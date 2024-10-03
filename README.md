@@ -1,8 +1,8 @@
 <h1>Role Based Access Control</h1>
-<h2>TradePulse Intranet</h2>
-<p>This is a Role Based Access Control corporate intranet portal (website used by the employees of an organization with in the organization) built by me using MERN Stack</p>
+<h2>ManageX InfoNet</h2>
+<p>This is a Role Based Access Control corporate InfoNet portal (website used by the employees of an organization with in the organization) built by me using MERN Stack</p>
 <h3>Overview:</h3>
-<p>TradePulse Intranet is a secure and efficient corporate intranet portal designed specifically for internal use within an e-commerce organization. The portal facilitates seamless  management of employees by providing role-based access to various features and functionalities. The application ensures that users can only access information maintaining a high level of security and control within the organization.</p>
+<p>ManageX InfoNet is a secure and efficient corporate InfoNet portal designed specifically for internal use within an e-commerce organization. The portal facilitates seamless  management of employees by providing role-based access to various features and functionalities. The application ensures that users can only access information maintaining a high level of security and control within the organization.</p>
 <h3>Key Functions and Features:</h3>
 <ol>
   <li><b>User Management:</b>
@@ -86,7 +86,6 @@
     </ul>
   </li>
 </ol>
-<h2>Base URL - <a href="https://beamish-buttercream-3f70ca.netlify.app">https://beamish-buttercream-3f70ca.netlify.app</a></h2>
 <h3>Public Routes</h3>
 <p><b>About: </b>/about</p>
 <p><b>Signup: </b>/signup</p>
