@@ -105,5 +105,5 @@
 ## BackEnd Render Deployed URL ⌛
 🔸[![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)](https://capestone-be.onrender.com)
 
-## Backend GitHub Repository URL ⌛
-🔸*Click on the Badge to Check out My BackEnd GitHub Repository Here*👉🏻[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Aravindhan-K97/Capestone-BE)
+## Frontend GitHub Repository URL ⌛
+🔸*Click on the Badge to Check out My BackEnd GitHub Repository Here*👉🏻[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Aravindhan-K97/Capestone-FE)
